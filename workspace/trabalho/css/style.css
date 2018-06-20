@@ -1,0 +1,201 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+div.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+h1 {
+    font-size: 2em;
+}
+
+header{
+    height: 60px;
+    background-color: rgb(247, 162, 35);
+    color: rgb(225, 225, 225);
+    overflow: hidden;
+    border-width: 10px;
+    border-style: solid;
+    border-color: rgb(255, 136, 0);
+}
+
+header > img:first-child {
+    float: left;
+    margin: 10px;
+}
+
+header h1 {
+    float: left;
+    margin-top: 20px;
+    color: black;
+    font-size: 20px;
+}
+
+header div {
+    float: right;
+    width: 200px;
+}
+
+header div img {
+    float: left;
+    margin: 10px;
+}
+
+header div p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+header div a {
+    display: block;
+    text-align: center;
+    margin-top: 5px;
+    color: cyan;
+}
+
+br.clear {
+    clear: both;
+}
+
+footer div.right img {
+    margin: 10px;
+    float: right;
+}
+footer div.left span {
+    font-size: 0.8em;
+    display: block;
+    margin-top: 18px;
+}
+footer div.right span {
+    margin-top: 15px;
+    font-size: 0.8em;
+    text-align: right;
+    float: left;
+    width: 440px;
+}
+footer div.left {
+    float: left;
+    width: 400px;
+    margin-left: 20px;
+    text-align: center;
+}
+footer div.right {
+    float: right;
+    width: 200px;
+}
+
+#produtos {
+    height: 60px;
+    background-color: rgb(109, 109, 109);
+}
+
+#produtos u {
+    color: white;
+}
+
+#produtos span {
+    margin-left: 8px;
+    margin-right: 8px;
+    max-width: 30px;
+
+}
+
+#avatar {
+    border-radius: 50%;
+}
+
+#copyright {
+    max-width: 120px;    
+}
+
+#sugestoes{
+    max-width: 100px;
+}
+
+.btn{
+    border:none;
+    border-radius: 10px;
+    background-color:  rgb(109, 109, 109);
+    color:white;
+    padding: 7px 15px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#busca {
+    height: 30px;
+    width: 250px;
+}
+
+#pesquisa {
+    position: absolute;
+    left: 430px;
+    top: 150px;
+}
+
+#barra {
+    position: absolute;
+    left: 390px;
+    top: 195px;
+    height: 1px;
+    background-color: black;
+    width: 450px;
+}
+
+#nome {
+    position: absolute;
+    color: white;
+    font-size: 50px;
+    top: 12px;
+
+}
+
+#logo {
+    position: absolute;
+    left: 410px;
+    top: 0;
+}
+
+footer {
+    clear: both;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(109, 109, 109);
+    color: rgb(225, 225, 225);
+    overflow: hidden;
+}
+
+#img-produtos{
+    margin-left: 250px; 
+}
+
+.anuncio {
+    height: 110px;
+}
+
+#titulo {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#texto{
+    max-width: 200px;
+    position: relative;
+    top: -95px;
+    left: 110px;
+}   
+
+strong {
+    display: block;
+    margin-bottom: 30px;
+}
+
+#produtos-right {
+    float: right;
+    position: relative;
+    top: -660px;
+    right: 400px;
+}
